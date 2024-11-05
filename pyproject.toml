@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "python-ba-interface"
+version = "1.0.1a16"
+description = ""
+authors = ["vonDowntown <20665646+vonDowntown@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+asyncio = "^3.4.3"
+aiohttp = "^3.9.1"
+requests = "^2.31.0"
+tldextract = "^5.1.1"
+bullmq = "^2.2.4"
+tqdm = "^4.66.2"
+pymongo = "^4.6.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
